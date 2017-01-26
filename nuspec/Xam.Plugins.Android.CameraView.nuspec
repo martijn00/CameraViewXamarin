@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Xam.Plugins.Android.CameraView</id>
+        <version>0.1.0</version>
+        <title>CameraView for Xamarin.Android</title>
+        <authors>Martijn van Dijk</authors>
+        <owners>Martijn van Dijk</owners>
+        <licenseUrl>https://github.com/martijn00/CameraViewXamarin/blob/master/LICENSE.md</licenseUrl>
+        <projectUrl>https://github.com/martijn00/CameraViewXamarin</projectUrl>
+        <iconUrl>https://raw.githubusercontent.com/martijn00/CameraViewXamarin/master/icon_cameraview.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Xamarin bindings for Google CameraView</description>
+        <summary>Xamarin bindings library for the Google CameraView library</summary>
+        <tags>xamarin, cameraview, monodroid, C#, xamarin.android, android, camera, photo</tags>
+		<dependencies>
+			<group targetFramework="MonoAndroid0.0">
+                <dependency id="Xamarin.Android.Support.Compat" version="25.0.1-RC1" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="..\CameraView\bin\Release\CameraView.dll" target="lib\MonoAndroid\CameraView.dll" />
+        <file src="..\CameraView\bin\Release\CameraView.dll.mdb" target="lib\MonoAndroid\CameraView.dll.mdb" />
+    </files>
+</package>
